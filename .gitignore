@@ -1,0 +1,29 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Jupyter
+.ipynb_checkpoints
+
+# Archivos no deseados
+data/temperaturas - copia.csv
+test/Lock.js
+ignition/modules/Lock.js
+
+# Datos y analisis (no se publican)
+data/
+analisis_tfg.ipynb
